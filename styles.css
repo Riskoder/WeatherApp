@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #48515ea4;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+  padding: 20px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  background-color: blue;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  background-color: #0b131e;
+  width: 21.875rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.country-info {
+  border-bottom: 1px solid #ffffff8e;
+  padding: 20px;
+}
+
+.location {
+  font-size: 2rem;
+}
+
+.grades {
+  flex: 1;
+  padding: 20px;
+}
+
+.grade {
+  font-size: 4.5rem;
+}
+
+.conditions {
+  font-size: 1.5rem;
+}
+
+.more-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  border-top: 1px solid #ffffff8e;
+}
+
+.info {
+  color: #ffffff8e;
+  font-style: italic;
+}
+
+form {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 8px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+form > button {
+  padding: 4px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.error {
+  color: red;
+  margin-top: 0.75rem;
+}
